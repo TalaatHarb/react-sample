@@ -2,11 +2,20 @@
   text-align: center;
 }
 
-.qr-canvas{
+#qr{
   height: 512px;
+  width: 512px;
   padding: 8px;
 }
 
 .spacer{
   height: 100px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  align-items: center;
 }
